@@ -1,5 +1,5 @@
 -- Mais estados
-INSERT INTO estados
+INSERT INTO estados1
     (nome, sigla, regiao, populacao)
 VALUES
     ('Bahia', 'BA', 'Nordeste', 15.34),
@@ -14,7 +14,6 @@ VALUES
     ('Pará', 'PA', 'Norte', 8.36),
     ('Paraíba', 'PB', 'Nordeste', 4.03),
     ('Parana', 'PR', 'Sul', 11.22),
-    ('Pernambuco', 'PE', 'Nordeste', 9.47),
     ('Piauí', 'PI', 'Nordeste', 3.22),
     ('Rio de Janeiro', 'RJ', 'Sudeste', 16.72),
     ('Rio Grande do Norte', 'RN', 'Nordeste', 3.51),
@@ -25,15 +24,3 @@ VALUES
     ('São Paulo', 'SP', 'Sudeste', 45.10),
     ('Sergipe', 'SE', 'Nordeste', 2.29),
     ('Tocantins', 'TO', 'Norte', 1.55);
-
--- Exemplo de Insert 1
-INSERT INTO estados (nome, sigla, regiao, populacao)
-    VALUES ('Acre', 'AC', 'Norte', 0.83);
-
--- Exemplo de Insert 2
-INSERT INTO estados 
-    (nome, sigla, regiao, populacao)
-VALUES
-    ('Alagoas', 'AL', 'Nordeste', 3.38),
-    ('Amapá', 'AP', 'Norte', 0.8),
-    ('Amazonas', 'AM', 'Norte', 4.06);
